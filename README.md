@@ -30,6 +30,7 @@ alternative [installation methods below](#alternative-neovim-installation-method
 
 External Requirements:
 - Basic utils: `git`, `make`, `unzip`, C Compiler (`gcc`)
+- [tree-sitter-cli](https://github.com/tree-sitter/tree-sitter/blob/master/cli/README.md) (v0.22+) - required for nvim-treesitter to compile parsers. Install via `cargo install tree-sitter-cli` or `npm install -g tree-sitter-cli`. Note: distro packages (apt, etc.) are often outdated.
 - [ripgrep](https://github.com/BurntSushi/ripgrep#installation),
   [fd-find](https://github.com/sharkdp/fd#installation)
 - Clipboard tool (xclip/xsel/win32yank or other depending on the platform)
