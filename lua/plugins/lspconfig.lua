@@ -119,9 +119,9 @@ return {
     --  Add the Mason package name to `ensure_installed` below to auto-install.
     --  See `:help lsp-config` for information about keys and how to configure
     local servers = {
-      -- clangd = {},
+      clangd = {},
       -- gopls = {},
-      -- pyright = {},
+      pyright = {},
       rust_analyzer = {
         settings = {
           ['rust-analyzer'] = {
