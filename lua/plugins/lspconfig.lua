@@ -151,6 +151,8 @@ return {
       'lua-language-server',
       'stylua',
       'rust-analyzer',
+      'clangd',
+      'pyright',
     }
 
     require('mason-tool-installer').setup { ensure_installed = ensure_installed }
